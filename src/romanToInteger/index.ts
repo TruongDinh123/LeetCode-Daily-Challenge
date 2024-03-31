@@ -62,3 +62,9 @@ export default function(s: string): number {
     }
     return result;
 }
+
+//M = 1000 ( lần 1) nguyên nhân không có kí tự trước nó và không nhỏ hơn nên cộng 1000 vào kết quả
+// current2 C = 100 next1 M = 1000 => current < next => result = 1000 - 100 = 900
+// current3 X = 10 next2 C = 100 => current < next => result = 100 - 10 = 90
+// curent4 I = 1 next4 V = 5 => current < next => result = 5 - 1 = 4
+// => 1000 + 900 + 90 + 4 = 1994
