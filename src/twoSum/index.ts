@@ -29,3 +29,5 @@ export function twoSum(nums: number[], target: number): number[] {
     //nếu không tìm thấy thì trả về mảng rỗng
     return [];
 }
+
+// Time complexity: O(n)

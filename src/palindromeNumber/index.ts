@@ -20,14 +20,14 @@
 // Output: false
 // Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
-export function isPalindrome(x: number): boolean {
-    if( x < 0) return false;
-    if( x < 10 ) return true;
+export function palindrome(x: number): boolean {
+    if(x < 0) return false;
+    if(x < 10) return false;
     let reversed = 0;
     let temp = x;
     while(temp > 0){
-        reversed = reversed * 10 + temp % 10; // 121 % 10 = 12.1 (temp % 10 là phép chia lấy dư) => reversed = ?;
-        temp = Math.floor(temp / 10); // hàm Math.floor lấy chữ số trước dấu phẩy => temp = ?
+        reversed = reversed * 10 + temp % 10; //reverse lan 1 = 1; lan 2: 12; lan 3:  121
+        temp = Math.floor(temp/10); // temp lan 1 = 12; lan 2: 1; lân 3: 0;
     }
     return x === reversed;
 }
