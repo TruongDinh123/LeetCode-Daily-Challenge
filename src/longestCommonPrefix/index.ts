@@ -20,6 +20,7 @@ export default function longestCommonprefix(strs: string[]): string {
         const string = strs[i];
         while(!string.startsWith(prefix)){
             prefix = prefix.slice(0, prefix.length - 1);
+            
         }
         if(prefix === '') {
             return ''
