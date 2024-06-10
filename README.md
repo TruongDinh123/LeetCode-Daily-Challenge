@@ -11,3 +11,4 @@
  10. Search Insert Position(Simple)
  11. Contains Duplicates(Simple)
  12. Maximum Sub Array (medium)
+ 13. Merge Sort Array (Simple)
