@@ -12,3 +12,4 @@
  11. Contains Duplicates(Simple)
  12. Maximum Sub Array (medium)
  13. Merge Sort Array (Simple)
+ 14. Intersection Of Two Array (Simple)
