@@ -32,7 +32,7 @@ function containsDuplicate1(nums: number[]): boolean {
         const element = nums[i];
         for(let j = i + 1; j < nums.length; j++) {
             if(element === nums[j])
-                return true;
+                return true;    
         }
     }
     return false;
